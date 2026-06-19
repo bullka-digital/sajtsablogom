@@ -12,6 +12,7 @@ export type PostFrontmatter = {
   excerpt: string
   tags: string[]
   slug: string
+  coverImage?: string
 }
 
 export type PostMeta = PostFrontmatter & {

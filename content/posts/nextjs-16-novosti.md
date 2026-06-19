@@ -4,6 +4,7 @@ date: "2026-06-18"
 excerpt: "Pregled najvažnijih promena u Next.js 16: async params, novi turbopack, i zašto je App Router sada zreliji nego ikad."
 tags: ["Next.js", "React", "Web razvoj"]
 slug: "nextjs-16-novosti"
+coverImage: "/post2.jpg"
 ---
 
 ## Next.js 16 donosi važne promene

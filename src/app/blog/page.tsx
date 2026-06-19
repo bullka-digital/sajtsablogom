@@ -20,7 +20,7 @@ export default async function BlogPage({
   ])
 
   return (
-    <main className="max-w-6xl mx-auto px-6 py-16">
+    <main className="max-w-6xl mx-auto px-6 pt-28 pb-16">
       <h1 className="text-4xl font-bold mb-4">Blog</h1>
       <p className="text-gray-600 dark:text-gray-400 mb-10">
         {posts.length} {posts.length === 1 ? 'post' : 'postova'}
@@ -36,7 +36,7 @@ export default async function BlogPage({
           Nema postova sa ovim tagom.
         </p>
       ) : (
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-x-8 gap-y-14 md:grid-cols-2">
           {posts.map((post) => (
             <PostCard key={post.slug} post={post} />
           ))}

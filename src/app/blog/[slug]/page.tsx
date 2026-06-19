@@ -46,7 +46,7 @@ export default async function PostPage({
   }
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-16">
+    <main className="max-w-3xl mx-auto px-6 pt-28 pb-16">
       <Link
         href="/blog"
         className="text-sm text-gray-500 dark:text-gray-400 hover:text-accent transition-colors mb-8 inline-block"

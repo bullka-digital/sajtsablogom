@@ -4,6 +4,7 @@ date: "2026-06-19"
 excerpt: "Prva objava na novom blogu napravljenom uz Next.js 16 i Markdown fajlove. Bez baze podataka, sve je jednostavno i brzo."
 tags: ["Next.js", "Uvod"]
 slug: "dobrodosli-na-blog"
+coverImage: "/post1.jpg"
 ---
 
 ## Zašto ovaj blog?

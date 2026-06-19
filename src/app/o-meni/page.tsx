@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function OMeniPage() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-16">
+    <main className="max-w-3xl mx-auto px-6 pt-28 pb-16">
       <h1 className="text-4xl font-bold mb-8">O meni</h1>
 
       <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:text-accent prose-a:text-accent">
