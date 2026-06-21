@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
 import PostCard from '@/components/PostCard'
 import HeroVideo from '@/components/HeroVideo'
+import NewsletterSection from '@/components/NewsletterSection'
 
 export default async function Home() {
   const posts = await getAllPosts()
@@ -28,6 +29,8 @@ export default async function Home() {
           )}
         </section>
       )}
+
+      <NewsletterSection />
     </>
   )
 }
